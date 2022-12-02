@@ -1,0 +1,7 @@
+Uma vez que, se a implementação de fibonacci utilizando o divide and conquer, a diretiva omp section será usada onde, cada chamada recursiva a função fib é executada como uma seção paralela (http://www.eitas.com.br/tutorial/12/51 Links to an external site.).
+
+É possível verificar também que, o tempo de execução paralelo piora, pois, a partir de uma determinada profundidade o código precisa ser executado de forma sequencial na árvore de recursão. (http://www.eitas.com.br/tutorial/12/51 Links to an external site.)
+
+Levando em consideração a teoria abordada a cima, responda. Porque que o tempo de execução piora e, como pode ser resolvido, se possível, esse problema de forma paralelizável?
+
+É possível fazer a divisão de uma section em outras sections? Analise o código abaixo do site (http://www.eitas.com.br/tutorial/12/51 Links to an external site.) e responda a pergunta que antecede e a que sucede o código.
