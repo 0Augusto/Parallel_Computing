@@ -4,7 +4,7 @@
  * Para compilar em terminal (janela de comandos):    
  * Linux:       gcc tarefa01.c -o tafera01 -fopenmp   
  * Windows:     gcc -o tarefa01.exe   -fopenmp
- * macbook:     gcc -o tarefa01.c -o tarefa01 -openmp
+ * macbook:     clang -o tarefa01 tarefa01.c -fopenmp -lomp
  * Para executar em terminal (janela de comandos):   
  * Linux:     ./tarefa01   
  * Windows:     tarefa01  

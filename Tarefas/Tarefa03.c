@@ -3,7 +3,7 @@
  * @Grupo: Filipe Arthur, Henrique Augusto,Luam Gonçalves 
  * Para compilar em terminal (janela de comandos):    
  * Linux:       gcc Tarefa03.c -o Tafera03 -fopenmp -lm   * Windows:     gcc -o Tarefa03.exe   -fopenmp -lm
- * macbook:     gcc -o Tarefa03.c -o TarefaUm -openmp
+ * macbook:     gcc -o Tarefa03.c -o Tarefa03 -openmp ou gcc -openmp Tarefa03.c -o Tarefa03
  * Para executar em terminal (janela de comandos):   
  * Linux:     ./Tarefa03   
  * Windows:     Tarefa03  
