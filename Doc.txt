@@ -1,3 +1,5 @@
+@author: Henrique Augusto
+@Data  : 23/08/2023
 Executando o código n vezes e salvando em um arquivo.txt
 
 bash: for i in {1..50}; do ./nome_do_executavel; done > nome_do_arquivo.txt
